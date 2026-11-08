@@ -194,7 +194,7 @@
             color: var(--secondary-color);
         }
 
-        .download--btn {
+        .download-cv-btn {
             background-color: var(--secondary-color);
             color: white;
             padding: 0.8rem 1.5rem;
@@ -211,7 +211,7 @@
             font-size: 1rem;
         }
 
-        .download--btn:hover {
+        .download-cv-btn:hover {
             background-color: #2980b9;
             transform: translateY(-2px);
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
@@ -917,7 +917,7 @@
                 border: 1px solid #ddd !important;
             }
             
-            .download--btn {
+            .download-cv-btn {
                 display: none !important;
             }
             
@@ -982,7 +982,7 @@
                         <p>Bilkent University, Ankara, Turkey</p>
                     </div>
                     
-                    <!--  Download Button with file size -->
+                    <!-- CV Download Button -->
                     <a href="CV.pdf" download="CV.pdf" class="download-cv-btn">
                         <i class="fas fa-download"></i> Download CV
                     </a>
@@ -1093,7 +1093,7 @@
 		
         <!-- Academic Experience Section -->
         <section id="experience">
-            <h2>Academic Experience</h2>
+            <h2>Academic & Professional Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
                     <h4>Postdoctoral Research Fellow</h4>
@@ -1124,6 +1124,39 @@
                         <li>EEE-211 Analog Electronics</li>
                         <li>EEE-201/202 Circuit Theory</li>
                     </ul>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Treasurer, IEEE Signal Processing Society (SPS) Turkey Chapter</h4><span class="date">Since 2024</span>
+
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Courses Taught</h4>
+                    <p>GE-304 Technology Society and Professional Development Seminar Course</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Research Internship</h4><span class="date">June 2012 – Sept. 2012</span>
+                    <p><strong>Siemens Healthineers</strong>, Istanbul, Turkey</p>
+                    <p>Contributed to the development and optimization of signal processing pipelines for MRI systems, focusing on image reconstruction algorithms and noise reduction techniques.</p>
+                    <p>Gained hands-on experience with medical image acquisition workflows and quality assessment of reconstructed images, supporting the integration of digital signal processing methods into clinical imaging protocols.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Research Internship</h4><span class="date">June 2011 – Sept. 2011</span>
+                    <p><strong>Toshiba Medical Systems</strong> (Canon Medical Systems), Istanbul, Turkey</p>
+                    <p>Developed and evaluated iterative reconstruction algorithms for computed tomography (CT) systems, focusing on artifact reduction and image quality enhancement.</p>
+                    <p>Conducted comparative performance analysis of image reconstruction techniques under varying clinical acquisition protocols.</p>
+                    <p>Assisted in image quality assessment studies using clinical datasets to validate diagnostic accuracy.</p>
+                </div>
+
+                <div class="timeline-item">
+                    <h4>Research Internship</h4><span class="date">June 2010 – Sept. 2010</span>
+                    <p><strong>Gulhane Military Medical Academy</strong>, Biomedical Engineering Center</p>
+                    <p>Advisor: Prof. Osman Erogul, Director of Biomedical Engineering Center</p>
+                    <p>Performed clinical validation and performance benchmarking of medical imaging systems (MRI, CT, Ultrasound) through quantitative image analysis and protocol optimization methods.</p>
+                    <p>Conducted system-level testing and quality assurance procedures, assessing imaging device performance against clinical diagnostic requirements and regulatory standards.</p>
                 </div>
             </div>
         </section>
@@ -1291,35 +1324,37 @@
             <h2>Selected Publications</h2>
 
 			
-		    <div class="publication-item" data-categories="manuscript,2026">
+<div class="publication-item" data-categories="conference,2026">
+                <p class="pub-title">Comparison of No-Reference Image Quality Assessment Metrics for Optimized Regularization in Magnetic Particle Imaging</p>
+                <p class="pub-authors"><strong>MB Terzi</strong>, EU Saritas</p>
+                <p class="pub-venue">2026 Medical Technologies Congress (TIPTEKNO), Gaziantep, Turkey, 15–17 October 2026. Accepted and presented; proceedings to be published in IEEE Xplore.</p>
+            </div>
+
+            <div class="publication-item" data-categories="conference,2026">
+                <p class="pub-title">Bayesian D-Optimal Frequency Selection for System Matrix Based Reconstruction in MPI</p>
+                <p class="pub-authors"><strong>MB Terzi</strong>, EU Saritas</p>
+                <p class="pub-venue">International Workshop on Magnetic Particle Imaging (IWMPI 2027), Hamburg, Germany, March 2027. Submitted; under review.</p>
+            </div>
+
+            <div class="publication-item" data-categories="manuscript,2026">
                 <p class="pub-title">Magnetic Particle Imaging Scanner Hardware: Recent Advances and Future Perspectives</p>
                 <p class="pub-authors"><strong>MB Terzi</strong>, EU Saritas</p>
                 <p class="pub-venue">Manuscript in preparation</p>
             </div>
 
-			
             <div class="publication-item" data-categories="manuscript,2026">
-                <p class="pub-title">Unsupervised Image Reconstruction Techniques for Magnetic Particle Imaging</p>
+                <p class="pub-title">Image Reconstruction Techniques for Magnetic Particle Imaging</p>
                 <p class="pub-authors"><strong>MB Terzi</strong>, EU Saritas</p>
                 <p class="pub-venue">Manuscript in preparation</p>
             </div>
 
-			
-            <div class="publication-item" data-categories="manuscript,2026">
-                <p class="pub-title">No-Reference Image Quality Assessment (NR-IQA) for MPI Image Reconstruction</p>
-                <p class="pub-authors"><strong>MB Terzi</strong>, EU Saritas</p>
-                <p class="pub-venue">Manuscript in preparation</p>
-            </div>
-
-			
             <div class="publication-item" data-categories="manuscript,2026">
                 <p class="pub-title">Multi-Color Magnetic Particle Imaging for Interventional Procedures: Current Technologies and Future Directions</p>
                 <p class="pub-authors"><strong>MB Terzi</strong>, MT Arslan, EU Saritas</p>
                 <p class="pub-venue">Manuscript in preparation</p>
             </div>
-			
-            
-            <div class="publication-item" data-categories="journal,2024">
+
+                        <div class="publication-item" data-categories="journal,2024">
                 <p class="pub-title">Machine Learning based Hybrid Anomaly Detection Technique for Automatic Diagnosis of Cardiovascular Diseases using Cardiac Sympathetic Nerve Activity and Electrocardiogram</p>
                 <p class="pub-authors"><strong>MB Terzi</strong>, O Arikan</p>
                 <p class="pub-venue">Biomedical Engineering / Biomedizinische Technik, vol. 69, no. 1, 2024, pp. 79-109</p>
@@ -1708,6 +1743,9 @@
                         <li>Simulink <div class="progress-container"><div class="progress-bar" style="width: 100%"></div></div></li>
                         <li>COMSOL <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
                         <li>LTSpice <div class="progress-container"><div class="progress-bar" style="width: 100%"></div></div></li>
+                        <li>Proteus (Ares & Isis) <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
+                        <li>Multisim <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
+                        <li>Electronic Workbench <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
                     </ul>
                 </div>
                 
@@ -1716,6 +1754,7 @@
                     <ul class="skill-list">
                         <li>LaTeX/Overleaf <div class="progress-container"><div class="progress-bar" style="width: 100%"></div></div></li>
                         <li>Linux <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
+                        <li>IBM SPSS Statistics <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
                         <li>Git <div class="progress-container"><div class="progress-bar" style="width: 90%"></div></div></li>
                     </ul>
                 </div>
